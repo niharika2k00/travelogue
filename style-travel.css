@@ -1,0 +1,445 @@
+body{
+	font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.container .fa-battle-net{
+  font-size: 10px;
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 98%;
+    /* max-width: 1100px; */
+  height:70px;
+   margin: auto;
+   box-sizing: border-box; 
+   margin: 0px;
+       /* background:rgba(219, 150, 216, 0.2);     */
+    /* background:linear-gradient(120deg,#659DBD,#FBEEC1) ; */
+    background:linear-gradient(240deg,#659DBD,#FBEEC1,#E7717D) ;
+}
+
+.container .heading h1{
+  height: 120px;
+  line-height: 50px;
+  font-size: 24px;
+  left: 10px;
+  /* padding: 20px 0px 60px 20px; */
+  padding-left: 50px;
+  float: left;
+  font-weight: bold;
+    background:  linear-gradient(120deg, gold /*#fee140*/, deeppink/*#fa709a*/);  /* fot text_gradient*/
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.container nav{
+  /* top: 10px;
+  left: 0px; */
+  padding-top: 18px;
+  height: 20px;
+  justify-content: space-between; 
+     }
+
+.container nav ul{
+  margin-top: 0px;
+  padding: 0px;
+  margin: 0;
+  /* height: 120px; */
+  /* line-height: 0px; */
+  display:flex;
+   float: right;
+  }
+
+.container nav ul li{
+  list-style: none;
+ height: 26px;   /*the small white gap betn the image and nav bar.*/
+  line-height: 0px; 
+ font-size: 16px; 
+ }
+
+.container nav ul li a{
+  height: 120px;
+  line-height: 0px;  /*alters the position of the items in the nav bar */
+  padding:  8px 20px;/*spacing betn the items in nav bar */
+  text-decoration: none; 
+  position: relative; 
+   color:green;
+   /* display: block; */
+   font-weight: bolder;
+   font-family: cursive;
+
+  }
+
+  .container nav ul li a:hover{
+  border-bottom: 1.5px solid orangered;
+  color:crimson;
+ }
+ .fa-shopping-cart{
+  color:black;
+  font-size: 20px;
+ }
+
+ .btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 6px 6px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;;
+}
+
+.tagline {
+  width: 100%;
+  height: 550px;
+  /* background-image:url('photo-1544198365-f5d60b6d8190.jpeg'); */
+  background-image:url('travel-pics\\photo-1544198365-f5d60b6d8190.jpeg');
+  display: flex; /*helps not to overlap the img on to the nav bar */
+  flex-direction:column;
+  /* flex-grow: 1px; */
+  background-repeat: no-repeat;
+  list-style: none;
+  text-decoration: none;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  justify-content: center;  /*the position of the txt */
+  
+}
+
+.container .tagline p{
+    margin-bottom: 10px;
+    font-size: 26px;
+    color:white;
+    font-weight:500;
+}
+
+.container .tagline a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.container .tagline h1{
+   margin-bottom: 5px;
+   font-size: 44px;
+   background:  linear-gradient(-180deg, gold /*#fee140*/, red/*#fa709a*/);  /* fot text_gradient*/
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;  
+}
+.container .tagline a:hover i {
+  margin-left: 15px;
+  transition: 200ms; 
+}
+
+
+/* *******************************SECTION******************************************* */
+.container .sub h2{
+  margin: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  /* justify-content: center; */
+  padding-top: 20px;
+  padding-bottom: 16px;
+  font-family: cursive;
+  background:  linear-gradient(-180deg, gold /*#fee140*/, red/*#fa709a*/);  
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+
+.fa-plane-departure{
+  color: black;
+  font-size: 30px;
+  padding-right: 6px;
+}
+
+.container .cards1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 22px;
+  margin-bottom: 30px;
+  /* background-color: black;
+  color: white; */
+}
+
+.container .cards1 img{
+  width: 100%;
+  margin-bottom: 5px;
+  border:2px solid lightseagreen;
+}
+
+.container .cards1 a{
+  display: inline-block;
+  padding-top: 6px;
+   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  background:  linear-gradient(120deg,indigo, #E7717D);  /* fot text_gradient*/
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.container .cards1 a:hover i {
+  margin-left: 10px;
+}
+/************************* switzerland**************** */
+.container .switz {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.container .switz .switz-img{
+  background: url('travel-pics\\photo-1462651567147-aa679fd1cfaf.jpeg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:600px;
+  background-position: center center;
+ position: relative;  for the txt to be on the top of the img
+  /* padding-top: 150px; */
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+   -webkit-filter: blur(6px);
+}
+
+.container .switz .content{
+  position:absolute;
+  transform: translate(+70%,-230%); /*for centering the txt inside the image */
+ z-index: 1000;
+ width: 40%;
+ padding: 6px 4px;
+ /*padding: 15%;*/
+ margin: 1px;
+ text-align:center;
+ text-transform: uppercase;
+ /* display: flex; */
+ /* flex-direction: column; */
+ align-items: center;
+ justify-content: center;
+ border:3px solid #86C232; 
+ border-top-left-radius: 80px;
+ border-bottom-right-radius: 80px;
+ /*background-color: rgba(0,0,0, .2);*/
+ /* color: #fff; */
+}
+
+.container .switz .content h1{
+  font-family: segoe print;
+  /* background:  linear-gradient(120deg, indigo , red);  */
+  background:#31708E;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  font-weight: bolder;
+  margin-bottom: 2px;
+  font-size: 38px;
+  
+}
+
+.container .switz .content p{
+  font-size: 22px;
+  font-weight: bolder;
+  font-weight: 100px;
+  font-family: cursive;
+  color:black;
+}
+/* **********************************************  */
+.container .cards2 .wrap{
+  display: flex;
+  background-color: black;
+  /* background: linear-gradient(120deg,#FBEEC1,#83677B); */
+  justify-content:center;for the cards to be in the center
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .cards2 .flipbox{
+   width:250px;
+   height: 250px;
+   /* background-color:#950740; */
+   /* background: linear-gradient(); */
+   perspective:1000px ;
+   box-shadow: 0px 4px 16px orangered;
+   margin: 30px 30px ;
+   padding: 0px;the blue boundary around the pic.
+   margin: 30px;
+   }
+ .container .cards2 .flipboxINNER{ 
+     position: relative;
+     text-align:center;
+     justify-content: center;
+     /* padding: px; */
+      /* width:100px;
+     height: 100px; */
+     transition: 0.5s;
+     transform-style: preserve-3d; 
+   }
+   .container .cards2 .flipboxFRONT{
+     position:absolute;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden; 
+   }
+
+   .container .cards2 .flipboxBACK{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+   .container .cards2 img{
+     height: 250px;
+     width: 250px;
+   }
+   .container .cards2 .flipboxBACK{
+     padding: 15%;
+     /* color:#C3073F; */
+     color:#FBEEC1;
+     box-sizing: border-box;
+     transform:rotateY(180deg);
+   }
+   .container .cards2 .flipbox:hover .flipboxINNER{
+    transform:rotateY(180deg);
+   } 
+
+   .container .cards1 button{
+     display: block;
+     width: 100px;
+     font-size: 12px;
+     margin: 6px;
+     padding: 6px;
+     font-weight: bold;
+     box-shadow: 0px 4px 6px orangered;
+     background:transparent;
+     /* color: black; */
+     border: 1px solid orangered;
+     border-radius: 10px;
+     color: white;
+     background: black;
+   }
+
+   .container .cards1 button:hover{
+     /* background:linear-gradient(-180deg, lavender,lightsalmon);   */
+     background: #262626;
+   }
+
+   form{
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border: 1px solid orangered;
+    }
+
+    input[type="text" ]   {
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        outline:none;
+        border: none;
+        float: left;
+        width: 85%;
+         border: 1px solid orangered;
+         background: black;
+        /* background: linear-gradient(#e7717e,#fbeec1); */
+         border-radius:8px 0 0 8px;
+    }
+   button{
+       float: left;
+       width: 10%;
+       outline:none;
+       padding: 11px; /*the height of the btn */
+        border: 1px solid orangered;
+        background: crimson;
+       /* background: linear-gradient(#3366ff,#336699); */
+        color: white;
+        font-size: 19px;
+        border:none;
+        cursor: pointer;
+        border-radius: 0 8px 8px 0;
+   } 
+   button:hover {
+       background: darkorange;
+   }
+    /* **************************FOLLOW*************************** */
+   .container  .follow {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     margin: 20px 0 0px;
+   }
+   
+   .follow * {
+     margin-right: 6px;
+   }
+
+   hr.style-six {
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    color: #333;
+    text-align: center;
+    }
+    hr.style-six:after {
+    content:" ";
+    display: inline-block;
+    position: relative;
+    top: -2.1em;
+    font-size: 1.5em;
+    padding: 19px 1.75em;
+    background: #fff url(image/cartoon_1.png) no-repeat scroll center;
+    background-size: 90px 90px;
+    height: 50px;
+    }
+    
+
+   /* ****************************Links ******************************/
+.container .links {
+  background: #f2f2f2;
+  color: #695a5a;
+  font-size: 14px;
+  padding: 25px 0;
+    margin-bottom: 30px;
+}
+
+.container .links-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  align-items: flex-start;
+  justify-content: center;   
+}
+.container .links-inner ul li a{
+  text-decoration: none; 
+     color:orangered;
+     /* font-family: cursive; */
+     list-style: none ;  
+}
+.container .links-inner ul li {
+  text-decoration: none; 
+     list-style: none ;  
+}
+
+
+
+
+
+
+
+
+
+
+ 
+    
