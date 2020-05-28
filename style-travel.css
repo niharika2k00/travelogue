@@ -221,7 +221,7 @@ body{
  /* flex-direction: column; */
  align-items: center;
  justify-content: center;
- border:3px solid #86C232; 
+ border:2px solid #f64c72; 
  border-top-left-radius: 80px;
  border-bottom-right-radius: 80px;
  /*background-color: rgba(0,0,0, .2);*/
@@ -230,8 +230,9 @@ body{
 
 .container .switz .content h1{
   font-family: segoe print;
-  /* background:  linear-gradient(120deg, indigo , red);  */
-  background:#31708E;
+  background:  linear-gradient(120deg, indigo , #f64c72); 
+  /* background:#31708E; */
+  /* background-color: #f64c72; */
   -webkit-text-fill-color:transparent;
   -webkit-background-clip:text;
   font-weight: bolder;
@@ -245,7 +246,10 @@ body{
   font-weight: bolder;
   font-weight: 100px;
   font-family: cursive;
-  color:black;
+   color:rgb(233, 81, 165); 
+   /* background:  linear-gradient(-180deg, gold , red);   
+   -webkit-text-fill-color:transparent; 
+  -webkit-background-clip:text;  */
 }
 /* **********************************************  */
 .container .cards2 .wrap{
@@ -305,6 +309,9 @@ body{
    .container .cards2 .flipbox:hover .flipboxINNER{
     transform:rotateY(180deg);
    } 
+   .P{
+    color: black;
+   }
 
    .container .cards1 button{
      display: block;
@@ -324,7 +331,7 @@ body{
 
    .container .cards1 button:hover{
      /* background:linear-gradient(-180deg, lavender,lightsalmon);   */
-     background: #262626;
+     background: #8da3a2;
    }
 
    form{
@@ -365,17 +372,19 @@ body{
    } 
    button:hover {
        background: darkorange;
+       color: pink;
    }
     /* **************************FOLLOW*************************** */
-   .container  .follow {
+    .container  .follow{
      display: flex;
      align-items: center;
+     font-size: 20px;
      justify-content: flex-start;
-     margin: 20px 0 0px;
-   }
-   
+     margin: 16px 0 0px;
+   } 
+  
    .follow * {
-     margin-right: 6px;
+     margin-right: 4px;
    }
 
    hr.style-six {
@@ -404,11 +413,11 @@ body{
 
    /* ****************************Links ******************************/
 .container .links {
-  background: #f2f2f2;
-  color: #695a5a;
+  background: #9c9797;
+  color: #423636;
   font-size: 14px;
   padding: 25px 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container .links-inner {
@@ -423,7 +432,7 @@ body{
 }
 .container .links-inner ul li a{
   text-decoration: none; 
-     color:orangered;
+     color:rgb(248, 245, 244);
      /* font-family: cursive; */
      list-style: none ;  
 }
@@ -431,8 +440,29 @@ body{
   text-decoration: none; 
      list-style: none ;  
 }
+/* ********************************MEDIA QUARIES*************************** */
+@media(max-width: 700px){
+
+.container .cards1 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .switz .switz-img{
+  height:400px ;
+  background-position: center center;
+  position: relative; /* for the txt to be on the top of the img*/
+  margin-top: 30px;
+  
+    -webkit-filter: blur(6px);
+}
+.container .switz .content{
+  width: 50%;
+
+}
 
 
+
+
+}
 
 
 
